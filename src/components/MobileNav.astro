@@ -1,0 +1,91 @@
+---
+import Socials from "./Socials.astro";
+---
+
+<div class="mobile-header mobile-haeder1 d-block d-lg-none">
+    <div class="container-fluid">
+        <div class="col-12">
+            <div class="mobile-header-elements">
+                <div class="mobile-logo">
+                    <a href="/"><img src="/assets/img/logo/logo1.png" alt=""></a>
+                </div>
+                <div class="mobile-nav-icon dots-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mobile-sidebar mobile-sidebar1">
+    <div class="logosicon-area">
+        <div class="logos">
+            <img src="/assets/img/logo/logo2.png" alt="">
+        </div>
+        <div class="menu-close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <div class="mobile-nav mobile-nav1">
+        <ul class="mobile-nav-list nav-list1">
+            <li><a href="/">Home</a></li>
+            <li><a href="/consultancy">Consultancy</a></li>
+            <li><a href="/services">Services</a>
+                <ul class="sub-menu">
+                    <li><a href="/medicalBilling">Medical Billing</a></li>
+                    <li><a href="/consulting">Practice Consulting</a></li>
+                    <li><a href="/audits">Compliance Audits</a></li>
+                    <li><a href="/coding">Medical Coding</a></li>
+                </ul>
+            </li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+        </ul>
+
+        <div class="allmobilesection">
+            <a href="/contact" class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <div class="single-footer">
+                <h3>Contact Info</h3>
+                <div class="footer1-contact-info">
+                    <div class="contact-info-single">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <a href="tel:+916300754179">+91 6300754179</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-single">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <a href="mailto:info@zenfusion.in">info@zenfusion.in</a>
+                        </div>
+                    </div>
+
+                    <div class="single-footer">
+                        <h3>Our Location</h3>
+
+                        <div class="contact-info-single">
+                            <div class="contact-info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <a href="#">Vasavi towers, Sai Nagar, Chaitanyapuri,<br>Hyderabad 500060, Telanagana</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="single-footer">
+                        <h3>Social Links</h3>
+                        <div class="social-links-mobile-menu">
+                            <Socials/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

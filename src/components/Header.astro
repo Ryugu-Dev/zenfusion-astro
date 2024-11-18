@@ -1,0 +1,40 @@
+---
+import MobileNav from "./MobileNav.astro";
+---
+
+<header>
+    <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-elements">
+                        <div class="site-logo">
+                            <a href="/"><img src="/assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/consultancy">Consultancy</a></li>
+                                <li><a href="/services" class="plus">Services <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding">
+                                        <li><a href="/medicalBilling">Medical Billing</a></li>
+                                        <li><a href="/consulting">Practice Consulting</a></li>
+                                        <li><a href="/audits">Compliance Audits</a></li>
+                                        <li><a href="/coding">Medical Coding</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/testimonials">Testimonials</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-area">
+                            <a href="/contact" class="header-btn1">Contact Us <span><i
+                                    class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<MobileNav/>
