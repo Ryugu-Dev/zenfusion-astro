@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import {serviceData, testimonials} from '../utils/data.js'
 import ServiceBlock from "../components/ServiceBlock.astro";
 import HeroTestimonial from "../components/HeroTestimonial.astro";
+import Contact from "../components/Contact.astro";
 
 // imaages
 import hero_image from '../images/hero_image.jpg'
@@ -215,63 +216,61 @@ console.log(serviceData)
         </div>
         <!--===== HERO AREA ENDS =======-->
         <!--===== ABOUT AREA STARTS =======-->
-        <div class="about1-section-area sp1">
+        <div class="about2-sectio-area sp1">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <div class="about-header heading2">
-                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
-                                                                                  alt="">About Us</h5>
-                            <div class="space16"></div>
-                            <h2 class="text-anime-style-3">Trusted Rebuilders Construction Partner</h2>
-                            <div class="space70 d-lg-block d-none"></div>
-                            <div class="space30 d-lg-none d-block"></div>
-                            <div class="images-area text-center">
-                                <div class="img1 reveal image-anime">
-                                    <img src="/assets/img/all-images/about/about-img1.png" alt="">
-                                </div>
-                                <div class="text">
-                                    <p>Engineer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="sucess-text">
-                            <div class="images-area2">
-                                <div class="img2 reveal image-anime">
-                                    <img src="/assets/img/all-images/about/about-img2.png" alt="">
-                                </div>
-                                <div class="text">
-                                    <p>Engineer</p>
-                                </div>
-                            </div>
-                            <div class="counter-text">
-                                <h2 class="text-anime-style-3"><span class="counter">100</span>%</h2>
+                    <div class="col-lg-6">
+                        <div class="about-images-area">
+                            <div class="customer-area">
+                                <img src="/assets/img/icons/sub-logo2.svg" alt="">
                                 <div class="space16"></div>
-                                <p>Success Rate</p>
+                                <h3><span class="counter">25</span>K Customers</h3>
+                                <div class="space10"></div>
+                                <p>Consultancy Company</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-2">
+                                    <div class="img1 reveal">
+                                        <img src="/assets/img/all-images/about/about-img5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-10">
+                                    <div class="img2 image-anime reveal">
+                                        <img src="/assets/img/all-images/about/about-img4.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="peragraph heading2">
-                            <p data-aos="fade-left" data-aos-duration="1000">Welcome to Rebuilders Construction Company,
-                                where quality craftsmanship and unwavering integrity are the foundations of business.
-                                With over 12 years of experience in the construction industry, we have been dedicated to
-                                transforming vision.</p>
-                            <div class="space24"></div>
-                            <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                                <a href="contact.html" class="header-btn1">Learn More <i
-                                        class="fa-solid fa-arrow-right"></i></a>
+                    <div class="col-lg-6">
+                        <div class="about-header heading4">
+                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="/assets/img/icons/sub-logo1.svg" alt="">About Our Company</h5>
+                            <div class="space16"></div>
+                            <h2 class="text-anime-style-3">Building Trust and Quality Through Commitment and Excellence</h2>
+                            <div class="space20"></div>
+                            <p data-aos="fade-left" data-aos-duration="1000">Rebuilders Construction Company has been a trusted name in the construction industry for over 20 years. Founded with a mission to deliver exceptional craftsmanship and unparalleled customer service, we have built a reputation for reliability and excellence.</p>
+                            <div class="space8"></div>
+                            <ul data-aos="fade-left" data-aos-duration="1100">
+                                <li><img src="/assets/img/icons/check2.svg" alt="">First Class Quality Service</li>
+                                <li><img src="/assets/img/icons/check2.svg" alt="">Stylistic Formula Method</li>
+                                <li><img src="/assets/img/icons/check2.svg" alt="">Service With Reasonable Price</li>
+                                <li><img src="/assets/img/icons/check2.svg" alt="">Immediate 24/7 Emergency</li>
+                            </ul>
+                            <div class="space32"></div>
+                            <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
+                                <a href="/about" class="header-btn1">About More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
-                            <div class="space80 d-lg-block d-none"></div>
-                            <div class="space30 d-lg-none d-block"></div>
-                            <div class="images-area text-center">
-                                <div class="img1 reveal image-anime">
-                                    <img src="/assets/img/all-images/about/about-img3.png" alt="">
+                            <div class="succes-rate-area" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="successful">
+                                    <h3><span class="counter">100</span>%</h3>
+                                    <div class="space16"></div>
+                                    <p>Success Rate</p>
                                 </div>
-                                <div class="text">
-                                    <p>Best Workers</p>
+                                <div class="space20"></div>
+                                <div class="client">
+                                    <h3><span class="counter">3592</span>+</h3>
+                                    <div class="space16"></div>
+                                    <p>Satisfied Client</p>
                                 </div>
                             </div>
                         </div>
@@ -378,61 +377,52 @@ console.log(serviceData)
         </div>
         <!--===== WORKS AREA ENDS =======-->
         <!--===== TESTIMONIAL AREA STARTS =======-->
-        <div class="testimonial1-section-area sp1">
+        <div class="testimonial2-section-area sp1">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 m-auto">
-                        <div class="testimonia-header heading2 text-center space-margin60">
-                            <h5><img src="assets/img/icons/sub-logo1.svg" alt=""> Testimonials</h5>
+                        <div class="testimonial-header text-center heading4 space-margin60">
+                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
+                                                                                  alt="">Testimonials</h5>
                             <div class="space16"></div>
-                            <h2 class="text-anime-style-3">What Our Clients Say</h2>
+                            <h2 class="text-anime-style-3">What Our Client Say’s About Rebuilders </h2>
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
-                    <div class="col-lg-10 m-auto" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="testimonial-sliders">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="teimonial-slider-nav-area foter-carousel">
-                                        <div class="testimonial-slider-img image-anime">
-                                            <img src="assets/img/all-images/testimonial/testimonial-img1.png" alt="">
-                                        </div>
-                                        <div class="testimonial-slider-img image-anime">
-                                            <img src="assets/img/all-images/testimonial/testimonial-img1.png" alt="">
-                                        </div>
-                                        <div class="testimonial-slider-img image-anime">
-                                            <img src="assets/img/all-images/testimonial/testimonial-img1.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-12">
+                        <div class="testimonial-slider-area owl-carousel">
 
-                                <div class="col-lg-6">
-                                    <div class="testimonial-content-slider slider-nav1">
+                            {testimonials.map(ele =>
+                                    <HeroTestimonial text={ele.text} cliName={ele.cliName}/>)}
 
-                                        {testimonials.map(ele =>
-                                                <HeroTestimonial imgLink={ele.imgLink} quote={ele.quote} text={ele.text}
-                                                                 cliName={ele.cliName} cliOffice={ele.cliOffice}/>)}
-
-                                    </div>
-
-                                    <div class="testimonial-arrows">
-                                        <div class="testimonial-prev-arrow">
-                                            <button><i class="fa-solid fa-angle-right"></i></button>
-                                        </div>
-                                        <div class="testimonial-next-arrow">
-                                            <button><i class="fa-solid fa-angle-left"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--===== TESTIMONIAL AREA ENDS =======-->
+        <Contact/>
+        <!--===== CTA AREA STARTS =======-->
+        <div class="cta1-section-area sp4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="cta-header">
+                            <h2 class="text-anime-style-3">Get in Touch with ZenFusion Consultancy</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <div class="btn-area" data-aos="zoom-in" data-aos-duration="1000">
+                            <a href="/contact" class="header-btn1">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/contact" class="header-btn2">Schedule Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===== CTA AREA ENDS =======-->
     </main>
 
 </BaseLayout>
