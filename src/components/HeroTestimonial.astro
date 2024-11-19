@@ -1,0 +1,22 @@
+---
+const {imgLink, quote, text, cliName, cliOffice} = Astro.props
+---
+<div class="testemonial-boxarea">
+    <div class="img">
+        <img src="/assets/img/icons/quito.svg" alt="">
+    </div>
+    <div class="space32"></div>
+    <div class="content-area">
+        <h4>{quote}</h4>
+        <p>“{text}”</p>
+    </div>
+    <div class="author-content">
+        <div class="img1">
+            <img src={imgLink} alt={cliName}>
+        </div>
+        <div class="content">
+            <a href="#">{cliName}</a>
+            <p>{cliOffice}</p>
+        </div>
+    </div>
+</div>

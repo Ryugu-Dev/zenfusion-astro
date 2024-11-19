@@ -240,8 +240,8 @@
         .btn1 {
             button {
                 position: absolute;
-                width: 635px;
-                left: 0px;
+                width: calc(100%/3);
+                left: 0;
                 top: -85px;
                 @media #{$xxl} {
                     width: 470px;
@@ -257,8 +257,8 @@
         .btn2 {
             button {
                 position: absolute;
-                width: 635px;
-                left: 33.4%;
+                width: calc(100%/3);
+                left: calc(100%/3);
                 top: -186px;
                 &::after {
                     position: absolute;
@@ -301,8 +301,8 @@
         .btn3 {
             button {
                 position: absolute;
-                width: 635px;
-                right: -4px;
+                width: calc(100%/3);
+                right: 0;
                 top: -287px;;
                 &::after {
                     position: absolute;
