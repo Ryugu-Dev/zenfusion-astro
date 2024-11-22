@@ -1,0 +1,32 @@
+---
+const {image = "/assets/img/all-images/hero/hero-img26.png", title, subpage, pageLink, page} = Astro.props
+---
+
+<div class="inner-hero-area" style=`background-image: url(${image});`>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="header-area">
+                    <h2>{title}</h2>
+                    <div class="space32"></div>
+                    <a href="/">Home</a> <i class="fa-solid fa-angle-right"></i> {subpage ? <a href={pageLink}>{page}</a>
+                        <i class="fa-solid fa-angle-right"></i> <span>{subpage}</span> : <span>{page}</span>}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style lang="scss">
+  i {
+    color: white;
+    font-weight: 900;
+  }
+
+  span {
+    font-family: var(--ztc-family-font1);
+    color: white;
+    font-weight: var(--ztc-weight-bold);
+    display: inline-block;
+  }
+</style>
