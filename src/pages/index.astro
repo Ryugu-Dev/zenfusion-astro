@@ -4,183 +4,179 @@ import {serviceData, testimonials} from '../utils/data.js'
 import ServiceBlock from "../components/ServiceBlock.astro";
 import HeroTestimonial from "../components/HeroTestimonial.astro";
 import Contact from "../components/Contact.astro";
+import ServiceSlider from "../components/ServiceSlider.astro";
 
 // imaages
 import hero_image from '../images/hero_image.jpg'
-import FooterBanner from "../components/FooterBanner.astro";
-
-console.log(serviceData)
 ---
 
 <BaseLayout>
-    <main>
-        <!--===== HERO AREA STARTS =======-->
-        <div class="hero-section-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero-tabs-area">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="tab-content" id="pills-tabContent">
-                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                             aria-labelledby="pills-home-tab" tabindex="0">
-                                            <img src={hero_image.src} alt="" class="hero-img1">
-                                            <div class="hero-header heading1">
-                                                <h5 class="text-anime-style-3"><img
-                                                        src="/assets/img/icons/sub-logo1.svg" alt=""> #1 Expert
-                                                    Recruitment</h5>
-                                                <div class="space20"></div>
-                                                <h2 class="text-anime-style-3">Recruitment and Talent Acquisition</h2>
-                                                <div class="space24"></div>
-                                                <p class="text-anime-style-1">ZenFusion specializes in sourcing and
-                                                    placing highly skilled healthcare professionals, including doctors,
-                                                    nurses, technicians, and administrative staff. By understanding the
-                                                    unique requirements of each role and organization, ZenFusion ensures
-                                                    the perfect match for both employers and candidates.</p>
-                                                <div class="space32"></div>
-                                                <div class="btn-area">
-                                                    <a href="/consultancy" class="header-btn1">Discover More <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                    <a href="/contact" class="header-btn2">Get Started Now <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
+    <!--===== HERO AREA STARTS =======-->
+    <div class="hero-section-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-tabs-area">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                         aria-labelledby="pills-home-tab" tabindex="0">
+                                        <img src={hero_image.src} alt="" class="hero-img1">
+                                        <div class="hero-header heading1">
+                                            <h5 class="text-anime-style-3"><img
+                                                    src="/assets/img/icons/sub-logo1.svg" alt=""> #1 Expert
+                                                Recruitment</h5>
+                                            <div class="space20"></div>
+                                            <h2 class="text-anime-style-3">Recruitment and Talent Acquisition</h2>
+                                            <div class="space24"></div>
+                                            <p class="text-anime-style-1">ZenFusion specializes in sourcing and
+                                                placing highly skilled healthcare professionals, including doctors,
+                                                nurses, technicians, and administrative staff. By understanding the
+                                                unique requirements of each role and organization, ZenFusion ensures
+                                                the perfect match for both employers and candidates.</p>
+                                            <div class="space32"></div>
+                                            <div class="btn-area">
+                                                <a href="/consultancy" class="header-btn1">Discover More <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                                <a href="/contact" class="header-btn2">Get Started Now <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </div>
-                                            <div class="space50"></div>
-                                            <div class="hero-counter-area">
-                                                <div class="row">
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="800">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Project Completed</p>
-                                                        </div>
+                                        </div>
+                                        <div class="space50"></div>
+                                        <div class="hero-counter-area">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="800">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Project Completed</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1000">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">7.8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Customer Satisfied</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1000">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">7.8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Customer Satisfied</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1200">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">450</span>+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Team Members</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1200">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">450</span>+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Team Members</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                             aria-labelledby="pills-profile-tab" tabindex="0">
-                                            <img src="assets/img/all-images/hero/hero-img30.png" alt=""
-                                                 class="hero-img1">
-                                            <div class="hero-header heading1">
-                                                <h5 class="text-anime-style-3"><img src="assets/img/icons/sub-logo1.svg"
-                                                                                    alt=""> #2 Workforce Development
-                                                </h5>
-                                                <div class="space20"></div>
-                                                <h2 class="text-anime-style-3">Workforce Planning and Development</h2>
-                                                <div class="space24"></div>
-                                                <p class="text-anime-style-1">ZenFusion helps healthcare organizations
-                                                    optimize their workforce by addressing talent shortages, planning
-                                                    for future needs, and supporting staff development. The company also
-                                                    provides training and certification guidance to ensure candidates
-                                                    meet industry standards and regulatory requirements.</p>
-                                                <div class="space32"></div>
-                                                <div class="btn-area">
-                                                    <a href="/consultancy" class="header-btn1">Discover More <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                    <a href="/contact" class="header-btn2">Get Started Now <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                         aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <img src="assets/img/all-images/hero/hero-img30.png" alt=""
+                                             class="hero-img1">
+                                        <div class="hero-header heading1">
+                                            <h5 class="text-anime-style-3"><img src="assets/img/icons/sub-logo1.svg"
+                                                                                alt=""> #2 Workforce Development
+                                            </h5>
+                                            <div class="space20"></div>
+                                            <h2 class="text-anime-style-3">Workforce Planning and Development</h2>
+                                            <div class="space24"></div>
+                                            <p class="text-anime-style-1">ZenFusion helps healthcare organizations
+                                                optimize their workforce by addressing talent shortages, planning
+                                                for future needs, and supporting staff development. The company also
+                                                provides training and certification guidance to ensure candidates
+                                                meet industry standards and regulatory requirements.</p>
+                                            <div class="space32"></div>
+                                            <div class="btn-area">
+                                                <a href="/consultancy" class="header-btn1">Discover More <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                                <a href="/contact" class="header-btn2">Get Started Now <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </div>
-                                            <div class="space50"></div>
-                                            <div class="hero-counter-area">
-                                                <div class="row">
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="800">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Project Completed</p>
-                                                        </div>
+                                        </div>
+                                        <div class="space50"></div>
+                                        <div class="hero-counter-area">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="800">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Project Completed</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1000">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">7.8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Customer Satisfied</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1000">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">7.8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Customer Satisfied</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1200">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">450</span>+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Team Members</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1200">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">450</span>+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Team Members</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                             aria-labelledby="pills-contact-tab" tabindex="0">
-                                            <img src="assets/img/all-images/hero/hero-img1.png" alt=""
-                                                 class="hero-img1">
-                                            <div class="hero-header heading1">
-                                                <h5 class="text-anime-style-3"><img src="assets/img/icons/sub-logo1.svg"
-                                                                                    alt=""> #3 Relationship Management
-                                                </h5>
-                                                <div class="space20"></div>
-                                                <h2 class="text-anime-style-3">Client and Candidate Relationship
-                                                    Management</h2>
-                                                <div class="space24"></div>
-                                                <p class="text-anime-style-1">At ZenFusion, building trust is paramount.
-                                                    The company focuses on personalized career counseling for job
-                                                    seekers and ensures healthcare organizations find professionals who
-                                                    align with their values and culture. This commitment ensures
-                                                    long-term success and satisfaction for both parties.</p>
-                                                <div class="space32"></div>
-                                                <div class="btn-area">
-                                                    <a href="/contact" class="header-btn1">Discover More <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                    <a href="/consultancy" class="header-btn2">Get Started Now <i
-                                                            class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                         aria-labelledby="pills-contact-tab" tabindex="0">
+                                        <img src="assets/img/all-images/hero/hero-img1.png" alt=""
+                                             class="hero-img1">
+                                        <div class="hero-header heading1">
+                                            <h5 class="text-anime-style-3"><img src="assets/img/icons/sub-logo1.svg"
+                                                                                alt=""> #3 Relationship Management
+                                            </h5>
+                                            <div class="space20"></div>
+                                            <h2 class="text-anime-style-3">Client and Candidate Relationship
+                                                Management</h2>
+                                            <div class="space24"></div>
+                                            <p class="text-anime-style-1">At ZenFusion, building trust is paramount.
+                                                The company focuses on personalized career counseling for job
+                                                seekers and ensures healthcare organizations find professionals who
+                                                align with their values and culture. This commitment ensures
+                                                long-term success and satisfaction for both parties.</p>
+                                            <div class="space32"></div>
+                                            <div class="btn-area">
+                                                <a href="/contact" class="header-btn1">Discover More <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                                <a href="/consultancy" class="header-btn2">Get Started Now <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </div>
-                                            <div class="space50"></div>
-                                            <div class="hero-counter-area">
-                                                <div class="row">
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="800">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Project Completed</p>
-                                                        </div>
+                                        </div>
+                                        <div class="space50"></div>
+                                        <div class="hero-counter-area">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="800">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Project Completed</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1000">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">7.8</span>K+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Customer Satisfied</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1000">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">7.8</span>K+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Customer Satisfied</p>
                                                     </div>
-                                                    <div class="col-md-3 col-6" data-aos="fade-up"
-                                                         data-aos-duration="1200">
-                                                        <div class="counter-box">
-                                                            <h3><span class="counter">450</span>+</h3>
-                                                            <div class="space16"></div>
-                                                            <p>Team Members</p>
-                                                        </div>
+                                                </div>
+                                                <div class="col-md-3 col-6" data-aos="fade-up"
+                                                     data-aos-duration="1200">
+                                                    <div class="counter-box">
+                                                        <h3><span class="counter">450</span>+</h3>
+                                                        <div class="space16"></div>
+                                                        <p>Team Members</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -192,92 +188,172 @@ console.log(serviceData)
                     </div>
                 </div>
             </div>
-            <div class="slider-btn-area">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item btn1" role="presentation">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">#1 Expert Recruitment
-                        </button>
-                    </li>
-                    <li class="nav-item btn2" role="presentation">
-                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">#2 Workforce Development
-                        </button>
-                    </li>
-                    <li class="nav-item btn3" role="presentation">
-                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                                aria-selected="false">#3 Relationship Management
-                        </button>
-                    </li>
-                </ul>
-            </div>
         </div>
-        <!--===== HERO AREA ENDS =======-->
-        <!--===== ABOUT AREA STARTS =======-->
-        <div class="about2-sectio-area sp1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-images-area">
-                            <div class="customer-area">
-                                <img src="/assets/img/icons/sub-logo2.svg" alt="">
+        <div class="slider-btn-area">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item btn1" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">#1 Expert Recruitment
+                    </button>
+                </li>
+                <li class="nav-item btn2" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">#2 Workforce Development
+                    </button>
+                </li>
+                <li class="nav-item btn3" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">#3 Relationship Management
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--===== HERO AREA ENDS =======-->
+    <!--===== ABOUT AREA STARTS =======-->
+    <div class="about2-sectio-area sp1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-images-area">
+                        <div class="customer-area">
+                            <img src="/assets/img/icons/sub-logo2.svg" alt="">
+                            <div class="space16"></div>
+                            <h3><span class="counter">25</span>K Customers</h3>
+                            <div class="space10"></div>
+                            <p>Consultancy Company</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-2">
+                                <div class="img1 reveal">
+                                    <img src="/assets/img/all-images/about/about-img5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-10">
+                                <div class="img2 image-anime reveal">
+                                    <img src="/assets/img/all-images/about/about-img4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-header heading4">
+                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="/assets/img/icons/sub-logo1.svg"
+                                                                              alt="">About Our Company</h5>
+                        <div class="space16"></div>
+                        <h2 class="text-anime-style-3">Building Trust and Quality Through Commitment and
+                            Excellence</h2>
+                        <div class="space20"></div>
+                        <p data-aos="fade-left" data-aos-duration="1000">ZenFusion is a dedicated healthcare job
+                            consultancy focused on bridging the gap between talented professionals and leading
+                            healthcare organizations. With a personalized approach, we specialize in helping job
+                            seekers find roles that match their skills and aspirations while supporting employers in
+                            building strong, skilled teams.</p>
+                        <div class="space8"></div>
+                        <ul data-aos="fade-left" data-aos-duration="1100">
+                            <li><img src="/assets/img/icons/check1.svg" alt="">Talent Matching</li>
+                            <li><img src="/assets/img/icons/check1.svg" alt="">Industry Expertise</li>
+                            <li><img src="/assets/img/icons/check1.svg" alt="">Training and Support</li>
+                            <li><img src="/assets/img/icons/check1.svg" alt="">Efficient Hiring</li>
+                        </ul>
+                        <div class="space32"></div>
+                        <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
+                            <a href="/about" class="header-btn1">About More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="succes-rate-area" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="successful">
+                                <h3><span class="counter">100</span>%</h3>
                                 <div class="space16"></div>
-                                <h3><span class="counter">25</span>K Customers</h3>
-                                <div class="space10"></div>
-                                <p>Consultancy Company</p>
+                                <p>Success Rate</p>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-2 col-md-2 col-2">
-                                    <div class="img1 reveal">
-                                        <img src="/assets/img/all-images/about/about-img5.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-10">
-                                    <div class="img2 image-anime reveal">
-                                        <img src="/assets/img/all-images/about/about-img4.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-header heading4">
-                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="/assets/img/icons/sub-logo1.svg"
-                                                                                  alt="">About Our Company</h5>
-                            <div class="space16"></div>
-                            <h2 class="text-anime-style-3">Building Trust and Quality Through Commitment and
-                                Excellence</h2>
                             <div class="space20"></div>
-                            <p data-aos="fade-left" data-aos-duration="1000">ZenFusion is a dedicated healthcare job
-                                consultancy focused on bridging the gap between talented professionals and leading
-                                healthcare organizations. With a personalized approach, we specialize in helping job
-                                seekers find roles that match their skills and aspirations while supporting employers in
-                                building strong, skilled teams.</p>
-                            <div class="space8"></div>
-                            <ul data-aos="fade-left" data-aos-duration="1100">
-                                <li><img src="/assets/img/icons/check1.svg" alt="">Talent Matching</li>
-                                <li><img src="/assets/img/icons/check1.svg" alt="">Industry Expertise</li>
-                                <li><img src="/assets/img/icons/check1.svg" alt="">Training and Support</li>
-                                <li><img src="/assets/img/icons/check1.svg" alt="">Efficient Hiring</li>
-                            </ul>
-                            <div class="space32"></div>
-                            <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                                <a href="/about" class="header-btn1">About More <i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="client">
+                                <h3><span class="counter">100</span>+</h3>
+                                <div class="space16"></div>
+                                <p>Satisfied Client</p>
                             </div>
-                            <div class="succes-rate-area" data-aos="zoom-in" data-aos-duration="1000">
-                                <div class="successful">
-                                    <h3><span class="counter">100</span>%</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===== ABOUT AREA ENDS =======-->
+    <ServiceSlider heading />
+    <!--===== WORKS AREA STARTS =======-->
+    <div class="works-section-area sp2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="works-header heading1">
+                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
+                                                                              alt=""> How We Work</h5>
+                        <div class="space16"></div>
+                        <h3 class="text-anime-style-3">The Process Of Working With Us</h3>
+                        <div class="space16 d-lg-none d-block"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6">
+                    <div class="pera heading1" data-aos="fade-left" data-aos-duration="1000">
+                        <p>At ZenFusion, we follow a streamlined process designed to connect you with the best
+                            opportunities in the healthcare industry. From understanding your goals to providing
+                            training and ensuring a smooth placement, our step-by-step approach is tailored to set
+                            you up for long-term success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space60 d-lg-block d-none"></div>
+            <div class="space30 d-lg-none d-block"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="step-by-step">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                                <div class="step-area">
+                                    <h4></h4>
+                                    <div class="space24"></div>
+                                    <a href="service1.html">Understanding Your Goals</a>
                                     <div class="space16"></div>
-                                    <p>Success Rate</p>
+                                    <p>We learn about your aspirations, skills, and preferences to find the perfect
+                                        role for you.</p>
                                 </div>
-                                <div class="space20"></div>
-                                <div class="client">
-                                    <h3><span class="counter">100</span>+</h3>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="900">
+                                <div class="step-area">
+                                    <h4></h4>
+                                    <div class="space24"></div>
+                                    <a href="service1.html">Training and Development</a>
                                     <div class="space16"></div>
-                                    <p>Satisfied Client</p>
+                                    <p>ZenFusion provides targeted training and certification guidance to enhance
+                                        your skills and readiness.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="step-area">
+                                    <h4></h4>
+                                    <div class="space24"></div>
+                                    <a href="service1.html">Job Matching</a>
+                                    <div class="space16"></div>
+                                    <p>We connect you with roles that align with your expertise and career
+                                        goals.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                                <div class="step-area">
+                                    <h4></h4>
+                                    <div class="space24"></div>
+                                    <a href="service1.html">Placement and Support</a>
+                                    <div class="space16"></div>
+                                    <p>After placement, we ensure a smooth transition with ongoing support and
+                                        guidance.</p>
                                 </div>
                             </div>
                         </div>
@@ -285,142 +361,34 @@ console.log(serviceData)
                 </div>
             </div>
         </div>
-        <!--===== ABOUT AREA ENDS =======-->
-        <!--===== SERVICE AREA STARTS =======-->
-        <div class="service4-section-area sp1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 m-auto">
-                        <div class="service4-header text-center heading2 space-margin60">
-                            <h5><img src="assets/img/icons/sub-logo4.svg" alt="">Our Service</h5>
-                            <div class="space16"></div>
-                            <h2 class="text-anime-style-3">Delivering Quality Construction Services for Over 20
-                                Years</h2>
-                        </div>
+    </div>
+    <!--===== WORKS AREA ENDS =======-->
+    <!--===== TESTIMONIAL AREA STARTS =======-->
+    <div class="testimonial2-section-area sp1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="testimonial-header text-center heading4 space-margin60">
+                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
+                                                                              alt="">Testimonials</h5>
+                        <div class="space16"></div>
+                        <h2 class="text-anime-style-3">What Our Client Say’s About ZenFusion </h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="service4-slider-area owl-carousel">
-                            {serviceData.map((ele) =>
-                                    <ServiceBlock imgLink={ele.imgLink} navLink={ele.navLink} service={ele.service}/>)}
-                        </div>
-                        <div class="space40"></div>
-                        <div class="btn-area1 text-center">
-                            <a href="/services" class="header-btn2-h4">View All Services <span><i
-                                    class="fa-solid fa-arrow-right"></i></span></a>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial-slider-area owl-carousel">
+
+                        {testimonials.map(ele =>
+                                <HeroTestimonial text={ele.text} cliName={ele.cliName}/>)}
+
                     </div>
                 </div>
             </div>
         </div>
-        <!--===== SERVICE AREA ENDS =======-->
-        <!--===== WORKS AREA STARTS =======-->
-        <div class="works-section-area sp2">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <div class="works-header heading1">
-                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
-                                                                                  alt=""> How We Work</h5>
-                            <div class="space16"></div>
-                            <h3 class="text-anime-style-3">The Process Of Working With Us</h3>
-                            <div class="space16 d-lg-none d-block"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-6">
-                        <div class="pera heading1" data-aos="fade-left" data-aos-duration="1000">
-                            <p>At ZenFusion, we follow a streamlined process designed to connect you with the best
-                                opportunities in the healthcare industry. From understanding your goals to providing
-                                training and ensuring a smooth placement, our step-by-step approach is tailored to set
-                                you up for long-term success.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="space60 d-lg-block d-none"></div>
-                <div class="space30 d-lg-none d-block"></div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="step-by-step">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="800">
-                                    <div class="step-area">
-                                        <h4></h4>
-                                        <div class="space24"></div>
-                                        <a href="service1.html">Understanding Your Goals</a>
-                                        <div class="space16"></div>
-                                        <p>We learn about your aspirations, skills, and preferences to find the perfect
-                                            role for you.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="900">
-                                    <div class="step-area">
-                                        <h4></h4>
-                                        <div class="space24"></div>
-                                        <a href="service1.html">Training and Development</a>
-                                        <div class="space16"></div>
-                                        <p>ZenFusion provides targeted training and certification guidance to enhance
-                                            your skills and readiness.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
-                                    <div class="step-area">
-                                        <h4></h4>
-                                        <div class="space24"></div>
-                                        <a href="service1.html">Job Matching</a>
-                                        <div class="space16"></div>
-                                        <p>We connect you with roles that align with your expertise and career
-                                            goals.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
-                                    <div class="step-area">
-                                        <h4></h4>
-                                        <div class="space24"></div>
-                                        <a href="service1.html">Placement and Support</a>
-                                        <div class="space16"></div>
-                                        <p>After placement, we ensure a smooth transition with ongoing support and
-                                            guidance.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--===== WORKS AREA ENDS =======-->
-        <!--===== TESTIMONIAL AREA STARTS =======-->
-        <div class="testimonial2-section-area sp1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 m-auto">
-                        <div class="testimonial-header text-center heading4 space-margin60">
-                            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
-                                                                                  alt="">Testimonials</h5>
-                            <div class="space16"></div>
-                            <h2 class="text-anime-style-3">What Our Client Say’s About ZenFusion </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testimonial-slider-area owl-carousel">
-
-                            {testimonials.map(ele =>
-                                    <HeroTestimonial text={ele.text} cliName={ele.cliName}/>)}
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--===== TESTIMONIAL AREA ENDS =======-->
-        <Contact/>
-    </main>
+    </div>
+    <!--===== TESTIMONIAL AREA ENDS =======-->
+    <Contact/>
 
 </BaseLayout>
