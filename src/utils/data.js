@@ -1,38 +1,45 @@
 export const serviceData = [
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'enrollment',
-        service: 'Provider Enrollment'
+        service: 'Provider Enrollment',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'coding',
-        service: 'Medical Coding'
+        service: 'Medical Coding',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'demographics',
-        service: 'Patient Demographics'
+        service: 'Patient Demographics',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'eligibility',
-        service: 'Eligibility'
+        service: 'Eligibility',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'chargecapture',
-        service: 'Charge Capture'
+        service: 'Charge Capture',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'posting',
-        service: 'Payment Posting'
+        service: 'Payment Posting',
+        info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
+        imgLink: '/assets/img/all-images/service/service-img13.png',
         navLink: 'accounts',
-        service: 'Accounts Receivable'
+        service: 'Accounts Receivable',
+        info: 'in three lines'
     },
 ]
 

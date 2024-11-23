@@ -23,6 +23,11 @@ $font-size: (
 a, a:hover{
     text-decoration: none;
 }
+
+a.nolink {
+  pointer-events: none;
+}
+
 ul{
     padding: 0;
     margin: 0;
