@@ -1,24 +1,39 @@
 export const serviceData = [
     {
         imgLink: '/assets/img/all-images/service/service-img1.png',
-        navLink: 'medicalBilling',
-        service: 'Medical Billing'
-    },
-    {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
-        navLink: 'consulting',
-        service: 'Practice Consulting'
-    },
-    {
-        imgLink: '/assets/img/all-images/service/service-img1.png',
-        navLink: 'audits',
-        service: 'Compliance Audits'
+        navLink: 'enrollment',
+        service: 'Provider Enrollment'
     },
     {
         imgLink: '/assets/img/all-images/service/service-img1.png',
         navLink: 'coding',
         service: 'Medical Coding'
-    }
+    },
+    {
+        imgLink: '/assets/img/all-images/service/service-img1.png',
+        navLink: 'demographics',
+        service: 'Patient Demographics'
+    },
+    {
+        imgLink: '/assets/img/all-images/service/service-img1.png',
+        navLink: 'eligibility',
+        service: 'Eligibility'
+    },
+    {
+        imgLink: '/assets/img/all-images/service/service-img1.png',
+        navLink: 'chargecapture',
+        service: 'Charge Capture'
+    },
+    {
+        imgLink: '/assets/img/all-images/service/service-img1.png',
+        navLink: 'posting',
+        service: 'Payment Posting'
+    },
+    {
+        imgLink: '/assets/img/all-images/service/service-img1.png',
+        navLink: 'accounts',
+        service: 'Accounts Receivable'
+    },
 ]
 
 export const testimonials = [
