@@ -139,7 +139,8 @@
                         transform: rotate(-90deg);
                         transition: all 0.4s; 
                         @media #{$xs} {
-                            top: 20px;
+                            top: 50%;
+                            translate: 0 -50%
                         }                      
                     }    
 
