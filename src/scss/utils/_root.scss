@@ -20,7 +20,7 @@
           --ztc-#{$weight}-#{$shade}: #{$value};
      }
  }
- 
+
  @each $specing, $shades in $height {
      @each $shade, $value in $shades {
           --ztc-#{$specing}-#{$shade}: #{$value};
@@ -32,7 +32,7 @@
           --ztc-#{$weight}-#{$shade}: #{$value};
      }
  }
- 
+
  //Fonts Family
  @each $family, $shades in $fontsfamily {
      @each $shade, $value in $shades {

@@ -1,42 +1,42 @@
 export const serviceData = [
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_1.webp',
         navLink: 'enrollment',
         service: 'Provider Enrollment',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_2.webp',
         navLink: 'coding',
         service: 'Medical Coding',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_3.webp',
         navLink: 'demographics',
         service: 'Patient Demographics',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_4.webp',
         navLink: 'eligibility',
         service: 'Eligibility',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_5.webp',
         navLink: 'chargecapture',
         service: 'Charge Capture',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_6.webp',
         navLink: 'posting',
         service: 'Payment Posting',
         info: 'in three lines'
     },
     {
-        imgLink: '/assets/img/all-images/service/service-img13.png',
+        imgLink: '/assets/img/all-images/projects/projects_7.webp',
         navLink: 'accounts',
         service: 'Accounts Receivable',
         info: 'in three lines'
