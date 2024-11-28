@@ -19,13 +19,19 @@
     overflow-y: scroll;
 
     .logosicon-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    }
-
-    .logos {
+      .logos {
         height: 66px;
-        width: 180px;
+        width: 220px;
+        display: flex;
+        align-items: center;
+      }
     }
+
+
     .mobile-nav.mobile-nav1{
       .mobile-nav-list.nav-list1{
         li{

@@ -105,9 +105,9 @@ ul, li{
 }
 
 .menu-close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
+    /*position: absolute;*/
+    /*right: 20px;*/
+    /*top: 20px;*/
     font-size: 25px;
     color: #161616;
     cursor: pointer;
