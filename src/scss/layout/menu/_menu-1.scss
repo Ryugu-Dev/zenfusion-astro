@@ -35,15 +35,29 @@
             transition: all .4s;
             .site-logo {
                 height: 75px;
-                width: 180px;
+                width: 250px;
                 object-fit: contain;
+                display: flex;
+                align-items: center;
             }
             .all-images-menu {
                 display: flex;
                 align-items: center;
             }
             .main-menu{
-                position: relative;
+                position: absolute;
+                left: 50%;
+                bottom: 50%;
+                translate: -50% 50%;
+                width: max-content;
+
+                @media #{$xl} {
+                    position: relative;
+                    translate: 0 0;
+                    left: unset;
+                    bottom: unset;
+                }
+
                 ul {
                     li.menu-small {
                         a {

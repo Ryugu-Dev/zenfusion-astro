@@ -6,7 +6,9 @@
     position: fixed;
     .mobile-logo {
         height: 60px;
-        width: 180px;
+        width: 220px;
+      display: flex;
+      align-items: center;
     }
     .mobile-nav-icon {
         color: var(--ztc-text-text-1);
@@ -15,6 +17,11 @@
 .mobile-sidebar.mobile-sidebar1{
     background: var(--ztc-text-text-1);
     overflow-y: scroll;
+
+    .logosicon-area {
+
+    }
+
     .logos {
         height: 66px;
         width: 180px;
