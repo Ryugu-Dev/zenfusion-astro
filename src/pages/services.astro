@@ -5,6 +5,7 @@ import ChooseUs from "../components/ChooseUs.astro";
 
 import {serviceData} from "../utils/data";
 import ServiceBlock2 from "../components/ServiceBlock2.astro";
+import Contact from "../components/Contact.astro";
 ---
 
 <BaseLayout>
@@ -17,24 +18,27 @@ import ServiceBlock2 from "../components/ServiceBlock2.astro";
                     <div class="service3-heading text-center heading2 space-margin60">
                         <h5><img src="assets/img/icons/sub-logo3.svg" alt="">Our Services</h5>
                         <div class="space16"></div>
-                        <h2 class="text-anime-style-3">Comprehensive Construction Solutions Tailored To Your Needs</h2>
+                        <h2 class="text-anime-style-3">Comprehensive Solutions Tailored To Your Needs</h2>
+                        <div class="space20"></div>
+                        <p>At ZenFusion, we offer comprehensive services to help job seekers excel in the healthcare
+                            industry. From personalized job placement and expert training programs to career counseling
+                            and credentialing support, we ensure every candidate is equipped for long-term success in
+                            their healthcare careers.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 {serviceData.map(ele =>
-                        <ServiceBlock2 imgLink={ele.imgLink} service={ele.service} info={ele.info} navLink={ele.navLink}/>)}
+                        <ServiceBlock2 imgLink={ele.imgLink} service={ele.service} info={ele.info}
+                                       navLink={ele.navLink}/>)}
                 <div class="space20"></div>
                 <div class="col-lg-12">
-                    <div class="btn-area1 text-center">
-                        <a href="/contact" class="header-btn2-h3">Contact Us <span><i
-                                class="fa-solid fa-arrow-right"></i></span></a>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!--===== SERVICE AREA ENDS =======-->
     <ChooseUs/>
+    <Contact/>
 
 </BaseLayout>

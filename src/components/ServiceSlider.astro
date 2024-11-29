@@ -2,7 +2,7 @@
 import ServiceBlock from "./ServiceBlock.astro";
 import {serviceData} from '../utils/data.js'
 
-const {heading, title='Delivering Quality Construction Services for Over 20 Years'} = Astro.props
+const {heading, title='Delivering Quality Services for Over 3 Years'} = Astro.props
 ---
 
 <!--===== SERVICE AREA STARTS =======-->
@@ -11,7 +11,7 @@ const {heading, title='Delivering Quality Construction Services for Over 20 Year
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="service4-header text-center heading2 space-margin60">
-                    {heading && <h5><img src="/assets/img/icons/sub-logo4.svg" alt="">Our Service</h5>
+                    {heading && <h5><img src="/assets/img/icons/sub-logo4.svg" alt="">Our Services</h5>
                         <div class="space16"></div>}
                     <h2 class="text-anime-style-3">{title}</h2>
                 </div>
@@ -33,4 +33,10 @@ const {heading, title='Delivering Quality Construction Services for Over 20 Year
     </div>
 </div>
 <!--===== SERVICE AREA ENDS =======-->
+
+<style lang="scss">
+    h2 {
+      text-wrap: balance;
+    }
+</style>
 
