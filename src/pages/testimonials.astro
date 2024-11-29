@@ -4,6 +4,7 @@ import Banner from "../components/Banner.astro";
 import Testimonial from "../components/Testimonial.astro";
 
 import {testimonials} from "../utils/data.js";
+import Contact from "../components/Contact.astro";
 ---
 
 <BaseLayout>
@@ -13,36 +14,37 @@ import {testimonials} from "../utils/data.js";
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-6">
-                    <div class="img1 image-anime reveal">
+                    <div class="img1 image-anime">
                         <img src="assets/img/all-images/about/about-img8.png" alt="">
                     </div>
                     <div class="space30 d-md-none d-block"></div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="space20 d-lg-none d-block"></div>
-                    <div class="img1 image-anime reveal">
+                    <div class="img1 image-anime">
                         <img src="assets/img/all-images/about/about-img9.png" alt="">
                     </div>
                     <div class="space30"></div>
-                    <div class="img1 image-anime reveal">
+                    <div class="img1 image-anime">
                         <img src="assets/img/all-images/about/about-img10.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-header heading4">
-                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo5.svg"
-                                                                              alt="">About Rebuilders</h5>
+                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo1.svg"
+                                                                              alt="">Testimonials</h5>
                         <div class="space16"></div>
-                        <h2 class="text-anime-style-3">Building Brighter Futures Through Compassion and Innovation.</h2>
+                        <h2 class="text-anime-style-3">Voices of Success:<br>What They Say About Us</h2>
                         <div class="space20"></div>
-                        <p data-aos="fade-left" data-aos-duration="1000">At Rebuilders, we believe in the power of
-                            transformation. Our mission is to help individuals and communities rise from adversity build
-                            a brighter future.</p>
+                        <p data-aos="fade-left" data-aos-duration="1000">Hear from those who’ve experienced the
+                            ZenFusion difference! Our success is reflected in the journeys of job seekers and employers
+                            we’ve supported. Discover how we’ve helped transform careers and optimize healthcare
+                            practices.</p>
                         <ul data-aos="fade-left" data-aos-duration="1100">
-                            <li><img src="assets/img/icons/check5.svg" alt="">First Class Quality Service</li>
-                            <li><img src="assets/img/icons/check5.svg" alt="">Stylistic Formula Method</li>
-                            <li><img src="assets/img/icons/check5.svg" alt="">Service With Reasonable Price</li>
-                            <li><img src="assets/img/icons/check5.svg" alt="">Immediate 24/7 Emergency</li>
+                            <li><img src="assets/img/icons/check5.svg" alt="">Transformed careers through tailored healthcare job training</li>
+                            <li><img src="assets/img/icons/check5.svg" alt="">Built confidence and skills with hands-on, practical programs.</li>
+                            <li><img src="assets/img/icons/check5.svg" alt="">Guided job seekers effortlessly through placements.</li>
+                            <li><img src="assets/img/icons/check5.svg" alt="">Opened doors to rewarding healthcare opportunities.</li>
                         </ul>
                         <div class="space32"></div>
                         <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
@@ -78,4 +80,5 @@ import {testimonials} from "../utils/data.js";
         </div>
     </div>
     <!--===== TESTIMONIAL AREA ENDS =======-->
+    <Contact/>
 </BaseLayout>
