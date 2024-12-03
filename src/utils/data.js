@@ -65,3 +65,58 @@ export const testimonials = [
         cliName: 'Neha Verma',
     }
 ]
+
+export const questions = [
+    {
+        id: 'collapseOne',
+        que: 'What is ZenFusion, and what services do you provide?',
+        ans: 'ZenFusion is a specialized job consultancy focused on healthcare revenue cycle management. We offer services such as accounts receivable management, medical coding, charge capture, payment posting, patient demographics, and eligibility verification. Additionally, we provide on-hand training programs for job seekers to help them build successful careers in these fields.'
+    },
+    {
+        id: 'collapseTwo',
+        que: 'What kind of training does ZenFusion offer job seekers?',
+        ans: ''
+    },
+    {
+        id: 'collapseThree',
+        que: 'Do you provide placement assistance for job seekers?',
+        ans: 'Yes, ZenFusion provides placement support to help job seekers connect with top healthcare organizations. Our goal is to ensure candidates are job-ready and positioned for success in their careers.'
+    },
+    {
+        id: 'collapseFour',
+        que: 'What industries or specialties does ZenFusion cater to?',
+        ans: ''
+    },
+    {
+        id: 'collapseFive',
+        que: 'How can I enroll in ZenFusion’s training programs?',
+        ans: 'You can contact us through our website or reach out via email or phone to learn more about available training programs and enrollment processes.'
+    },
+    {
+        id: 'collapseSix',
+        que: 'How can I contact ZenFusion for inquiries or services?',
+        ans: 'You can reach us through the Contact Us section of our website, where you\'ll find email, phone, and form options to connect with our team.\n' +
+            '\n' +
+            'Have more questions? Get in touch with ZenFusion today to learn how we can support your career goals or optimize your healthcare processes!'
+    },
+    {
+        id: 'collapseSeven',
+        que: 'Does ZenFusion assist with job placement after training?',
+        ans: 'Yes, ZenFusion provides job placement support to trainees. Our placement team helps connect you with top healthcare providers looking for skilled professionals in the revenue cycle management field.'
+    },
+    {
+        id: 'collapseEight',
+        que: 'What roles does ZenFusion prepare job seekers for?',
+        ans: ''
+    },
+    {
+        id: 'collapseNine',
+        que: 'Do I need prior experience to enroll in ZenFusion’s training programs?',
+        ans: 'No prior experience is required. Our training programs are designed to cater to both beginners and individuals with some background in healthcare or administration.'
+    },
+    {
+        id: 'collapseTen',
+        que: 'Are there any fees for the training programs?',
+        ans: 'Yes, there are affordable program fees, which vary depending on the module. Our team will provide details upon inquiry.'
+    }
+]
