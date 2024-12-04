@@ -75,7 +75,12 @@ export const questions = [
     {
         id: 'collapseTwo',
         que: 'What kind of training does ZenFusion offer job seekers?',
-        ans: ''
+        ans: 'Our on-hand training programs focus on preparing candidates for real-world healthcare roles. Training highlights include:\n' +
+            '\n' +
+            'Practical knowledge of medical billing and coding.\n' +
+            'Hands-on experience with healthcare software and tools.\n' +
+            'Exposure to processes like charge capture, eligibility verification, and payment posting.\n' +
+            'Guidance on compliance and industry best practices.'
     },
     {
         id: 'collapseThree',
@@ -85,7 +90,10 @@ export const questions = [
     {
         id: 'collapseFour',
         que: 'What industries or specialties does ZenFusion cater to?',
-        ans: ''
+        ans: 'We cater to the healthcare industry, providing services across multiple specialties, including:\n' +
+            '\n' +
+            'Medical coding (ICD-10, CPT, HCPCS).\n' +
+            'Revenue cycle management (charge entry, payment posting, patient demographics).'
     },
     {
         id: 'collapseFive',
@@ -107,7 +115,12 @@ export const questions = [
     {
         id: 'collapseEight',
         que: 'What roles does ZenFusion prepare job seekers for?',
-        ans: ''
+        ans: 'We prepare candidates for a variety of healthcare roles, including:\n' +
+            '\n' +
+            'Medical coders and auditors.\n' +
+            'Payment posting specialists.\n' +
+            'Eligibility verification analysts.\n' +
+            'Charge entry professionals.'
     },
     {
         id: 'collapseNine',
