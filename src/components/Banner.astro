@@ -1,8 +1,8 @@
 ---
-const {image = "/assets/img/all-images/hero/hero-img26.png", title, subpage, pageLink, page} = Astro.props
+const {image, title, subpage, pageLink, page} = Astro.props
 ---
 
-<div class="inner-hero-area" style=`background-image: url(${image});`>
+<div class="inner-hero-area" style=`background-image: url(/assets/img/cover-images/${image});`>
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
