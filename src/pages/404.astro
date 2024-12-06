@@ -1,7 +1,31 @@
 ---
-
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Banner from "../components/Banner.astro";---
+import Banner from "../components/Banner.astro";
+---
 <BaseLayout>
-    <Banner title="404" page="Page Not Found"/>
+    <Banner title="404" page="Page Not Found" image="404.webp"/>
+    <!--===== 404 AREA STARTS =======-->
+    <div class="error-section-area sp1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 m-auto">
+                    <div class="error-header text-center heading2">
+                        <div class="img1">
+                            <img src="/assets/img/404/4041.webp" alt="Not found image">
+                        </div>
+                        <div class="space50"></div>
+                        <h2> Sorry! Page Not Found!</h2>
+                        <div class="space16"></div>
+                        <p>Sorry, the page you are looking for doesn’t exist or has <br class="d-lg-block d-none"> been
+                            moved. Here are some helpful links.</p>
+                        <div class="space24"></div>
+                        <div class="btn-area1">
+                            <a href="/" class="header-btn1">Back To Home <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===== 404 AREA ENDS =======-->
 </BaseLayout>
