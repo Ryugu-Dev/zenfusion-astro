@@ -173,7 +173,7 @@
             }
         }
         .customer-area {
-            background: var(--ztc-text-text-5);
+            background: var(--ztc-text-text-4);
             padding: 16px;
             display: inline-block;
             transition: all .4s;
@@ -182,10 +182,10 @@
             bottom: 32px;
             z-index: 1;
             img {
-                filter: brightness(0) invert(1);
+                filter: brightness(0);
             }
             h3 {
-                color: var(--ztc-text-text-1);
+                color: var(--ztc-text-text-2);
                 font-family: var(--ztc-family-font1);
                 font-size: var(--ztc-font-size-font-s24);
                 font-style: normal;
@@ -193,7 +193,7 @@
                 line-height: 24px;          
             }
             p {
-                color: var(--ztc-text-text-1);
+                color: var(--ztc-text-text-2);
                 text-align: center;
                 font-family: var(--ztc-family-font1);
                 font-size: var(--ztc-font-size-font-s16);
@@ -250,7 +250,7 @@
                 padding-bottom: 20px;
                 border-bottom: 1px solid #A7A9AD;
                 h3 {
-                    color: var(--1st-Main, #FC501D);
+                    color: var(--1st-Main, #986900);
                     font-family: var(--ztc-family-font1);
                     font-size: var(--ztc-font-size-font-s32);
                     font-style: normal;
@@ -261,7 +261,7 @@
             .client {
                 text-align: center;
                 h3 {
-                    color: var(--1st-Main, #FC501D);
+                    color: var(--1st-Main, #986900);
                     font-family: var(--ztc-family-font1);
                     font-size: var(--ztc-font-size-font-s32);
                     font-style: normal;
