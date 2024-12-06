@@ -3,10 +3,10 @@ import BaseLayout from "./BaseLayout.astro";
 import Banner from "../components/Banner.astro";
 import ServiceSlider from "../components/ServiceSlider.astro";
 
-const {service, image} = Astro.props
+const {service} = Astro.props
 ---
 <BaseLayout>
-    <Banner title={service} page="Services" pageLink="/services" subpage={service} image={image}/>
+    <Banner title={service} page="Services" pageLink="/services" subpage={service} image="services_all.webp"/>
     <!--===== SERVICE AREA STARTS =======-->
     <div class="service-inner-area sp1">
         <div class="container">
