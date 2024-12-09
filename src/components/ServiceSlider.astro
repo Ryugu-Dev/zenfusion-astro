@@ -21,7 +21,7 @@ const {heading, title='Delivering Quality Services for Over 3 Years'} = Astro.pr
             <div class="col-lg-12">
                 <div class="service4-slider-area owl-carousel">
                     {serviceData.map((ele) =>
-                            <ServiceBlock imgLink={ele.imgLink} navLink={ele.navLink} service={ele.service}/>)}
+                            <ServiceBlock imgLink={ele.imgLink} navLink=`/${ele.navLink}` service={ele.service}/>)}
                 </div>
                 { heading && <div class="space40"></div>
                     <div class="btn-area1 text-center">
