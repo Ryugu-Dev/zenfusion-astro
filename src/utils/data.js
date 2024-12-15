@@ -45,23 +45,23 @@ export const serviceData = [
 
 export const testimonials = [
     {
-        text: 'ZenFusion made my job search stress-free. They understood my career goals and matched me with a hospital that aligned perfectly with my skills and values. Their support throughout the process was exceptional!',
+        text: 'Place Waves made my job search stress-free. They understood my career goals and matched me with a hospital that aligned perfectly with my skills and values. Their support throughout the process was exceptional!',
         cliName: 'D Kavitha',
     },
     {
-        text: 'ZenFusion has been a game-changer for our recruitment process. They consistently provide us with qualified candidates who not only meet our skill requirements but also fit seamlessly into our team culture. Highly recommended!',
+        text: 'Place Waves has been a game-changer for our recruitment process. They consistently provide us with qualified candidates who not only meet our skill requirements but also fit seamlessly into our team culture. Highly recommended!',
         cliName: 'Priya Menon',
     },
     {
-        text: 'As a recent nursing graduate, I struggled to find my first job. ZenFusion guided me through every step, from resume building to interview prep, and helped me land my dream role. I couldn’t be happier!',
+        text: 'As a recent nursing graduate, I struggled to find my first job. Place Waves guided me through every step, from resume building to interview prep, and helped me land my dream role. I couldn’t be happier!',
         cliName: 'A Arjun Kumar',
     },
     {
-        text: 'ZenFusion helped me find a position that not only matched my skills but also my passion for patient care. The personalized attention they provided was beyond what I expected. A truly rewarding experience!',
+        text: 'Place Waves helped me find a position that not only matched my skills but also my passion for patient care. The personalized attention they provided was beyond what I expected. A truly rewarding experience!',
         cliName: 'D Rohit Kumar',
     },
     {
-        text: 'We\'ve partnered with ZenFusion multiple times, and they always deliver outstanding candidates. Their understanding of our specific needs and commitment to quality service makes them our go-to consultancy.',
+        text: 'We\'ve partnered with Place Waves multiple times, and they always deliver outstanding candidates. Their understanding of our specific needs and commitment to quality service makes them our go-to consultancy.',
         cliName: 'Neha Verma',
     }
 ]
@@ -69,12 +69,12 @@ export const testimonials = [
 export const questions = [
     {
         id: 'collapseOne',
-        que: 'What is ZenFusion, and what services do you provide?',
-        ans: 'ZenFusion is a specialized job consultancy focused on healthcare revenue cycle management. We offer services such as accounts receivable management, medical coding, charge capture, payment posting, patient demographics, and eligibility verification. Additionally, we provide on-hand training programs for job seekers to help them build successful careers in these fields.'
+        que: 'What is Place Waves, and what services do you provide?',
+        ans: 'Place Waves is a specialized job consultancy focused on healthcare revenue cycle management. We offer services such as accounts receivable management, medical coding, charge capture, payment posting, patient demographics, and eligibility verification. Additionally, we provide on-hand training programs for job seekers to help them build successful careers in these fields.'
     },
     {
         id: 'collapseTwo',
-        que: 'What kind of training does ZenFusion offer job seekers?',
+        que: 'What kind of training does Place Waves offer job seekers?',
         ans: 'Our on-hand training programs focus on preparing candidates for real-world healthcare roles. Training highlights include:\n' +
             '\n' +
             'Practical knowledge of medical billing and coding.\n' +
@@ -85,11 +85,11 @@ export const questions = [
     {
         id: 'collapseThree',
         que: 'Do you provide placement assistance for job seekers?',
-        ans: 'Yes, ZenFusion provides placement support to help job seekers connect with top healthcare organizations. Our goal is to ensure candidates are job-ready and positioned for success in their careers.'
+        ans: 'Yes, Place Waves provides placement support to help job seekers connect with top healthcare organizations. Our goal is to ensure candidates are job-ready and positioned for success in their careers.'
     },
     {
         id: 'collapseFour',
-        que: 'What industries or specialties does ZenFusion cater to?',
+        que: 'What industries or specialties does Place Waves cater to?',
         ans: 'We cater to the healthcare industry, providing services across multiple specialties, including:\n' +
             '\n' +
             'Medical coding (ICD-10, CPT, HCPCS).\n' +
@@ -97,24 +97,24 @@ export const questions = [
     },
     {
         id: 'collapseFive',
-        que: 'How can I enroll in ZenFusion’s training programs?',
+        que: 'How can I enroll in Place Waves’s training programs?',
         ans: 'You can contact us through our website or reach out via email or phone to learn more about available training programs and enrollment processes.'
     },
     {
         id: 'collapseSix',
-        que: 'How can I contact ZenFusion for inquiries or services?',
+        que: 'How can I contact Place Waves for inquiries or services?',
         ans: 'You can reach us through the Contact Us section of our website, where you\'ll find email, phone, and form options to connect with our team.\n' +
             '\n' +
-            'Have more questions? Get in touch with ZenFusion today to learn how we can support your career goals or optimize your healthcare processes!'
+            'Have more questions? Get in touch with Place Waves today to learn how we can support your career goals or optimize your healthcare processes!'
     },
     {
         id: 'collapseSeven',
-        que: 'Does ZenFusion assist with job placement after training?',
-        ans: 'Yes, ZenFusion provides job placement support to trainees. Our placement team helps connect you with top healthcare providers looking for skilled professionals in the revenue cycle management field.'
+        que: 'Does Place Waves assist with job placement after training?',
+        ans: 'Yes, Place Waves provides job placement support to trainees. Our placement team helps connect you with top healthcare providers looking for skilled professionals in the revenue cycle management field.'
     },
     {
         id: 'collapseEight',
-        que: 'What roles does ZenFusion prepare job seekers for?',
+        que: 'What roles does Place Waves prepare job seekers for?',
         ans: 'We prepare candidates for a variety of healthcare roles, including:\n' +
             '\n' +
             'Medical coders and auditors.\n' +
@@ -124,7 +124,7 @@ export const questions = [
     },
     {
         id: 'collapseNine',
-        que: 'Do I need prior experience to enroll in ZenFusion’s training programs?',
+        que: 'Do I need prior experience to enroll in Place Waves’s training programs?',
         ans: 'No prior experience is required. Our training programs are designed to cater to both beginners and individuals with some background in healthcare or administration.'
     },
     {
