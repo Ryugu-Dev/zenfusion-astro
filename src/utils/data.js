@@ -3,43 +3,43 @@ export const serviceData = [
         imgLink: '/assets/img/all-images/projects/projects_1.webp',
         navLink: 'enrollment',
         service: 'Provider Enrollment',
-        info: 'in three lines'
+        info: 'Provider enrollment ensures healthcare providers are credentialed to offer services and receive payments.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_2.webp',
         navLink: 'coding',
         service: 'Medical Coding',
-        info: 'in three lines'
+        info: 'Medical coding translates healthcare diagnoses, treatments, and procedures into standardized codes for billing.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_3.webp',
         navLink: 'demographics',
         service: 'Patient Demographics',
-        info: 'in three lines'
+        info: 'Patient demographics include key details like name, age, contact, and insurance, ensuring accurate billing records.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_4.webp',
         navLink: 'eligibility',
         service: 'Eligibility',
-        info: 'in three lines'
+        info: 'Eligibility verifies a patient\'s insurance coverage to prevent denials and ensure smooth claims processing.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_5.webp',
         navLink: 'chargecapture',
         service: 'Charge Capture',
-        info: 'in three lines'
+        info: 'Charge capture records all billable services provided to ensure accurate and complete revenue tracking.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_6.webp',
         navLink: 'posting',
         service: 'Payment Posting',
-        info: 'in three lines'
+        info: 'Payment posting records payments from insurers and patients, ensuring accuracy in billing and account updates.'
     },
     {
         imgLink: '/assets/img/all-images/projects/projects_7.webp',
         navLink: 'accounts',
         service: 'Accounts Receivable',
-        info: 'in three lines'
+        info: 'Accounts Receivable manages timely recovery of payments, ensuring steady cash flow and financial stability.'
     },
 ]
 
