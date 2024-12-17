@@ -133,3 +133,8 @@ export const questions = [
         ans: 'Yes, there are affordable program fees, which vary depending on the module. Our team will provide details upon inquiry.'
     }
 ]
+
+export function currentYear(){
+    const d = new Date()
+    return d.getFullYear()
+}
