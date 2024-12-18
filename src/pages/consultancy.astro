@@ -1,9 +1,41 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Banner from "../components/Banner.astro";
+import Contact from "../components/Contact.astro";
+import {testimonials} from '../utils/data.js'
+import HeroTestimonial from "../components/HeroTestimonial.astro";
+import ChooseUs from "../components/ChooseUs.astro";
 ---
 
 <BaseLayout>
     <Banner title="Consultancy" page="Consultancy"/>
+    <ChooseUs />
+    <!--===== TESTIMONIAL AREA STARTS =======-->
+    <div class="testimonial2-section-area sp1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="testimonial-header text-center heading4 space-margin60">
+                        <h5 data-aos="fade-left" data-aos-duration="800"><img src="/assets/img/icons/sub-logo1.svg"
+                                                                              alt="">Testimonials</h5>
+                        <div class="space16"></div>
+                        <h2 class="text-anime-style-3">What Our Client Say’s About Place Waves </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial-slider-area owl-carousel">
+
+                        {testimonials.map(ele =>
+                                <HeroTestimonial text={ele.text} cliName={ele.cliName}/>)}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===== TESTIMONIAL AREA ENDS =======-->
+    <Contact />
 
 </BaseLayout>
